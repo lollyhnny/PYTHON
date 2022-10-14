@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "hierarchy _chart", "hierarchy _chart.pyproj", "{DF3A07CB-A00C-44D5-BCBC-D3EF30A6775E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF3A07CB-A00C-44D5-BCBC-D3EF30A6775E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3A07CB-A00C-44D5-BCBC-D3EF30A6775E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD702E64-D89E-412D-AB99-0FB6D4E8FD2C}
+	EndGlobalSection
+EndGlobal
