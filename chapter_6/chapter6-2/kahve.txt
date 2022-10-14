@@ -1,4 +1,6 @@
-Brazilian Dark Roast
-18
-Sumatra Medium Roast
-21
+ice americano
+medium
+latte
+tall
+espresso
+small
