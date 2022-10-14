@@ -3,7 +3,7 @@ def KayitEkle():
  devam = 'e'
 
 
- kahve_dos = open('coffee.txt', 'a')
+ kahve_dos = open('kahve.txt', 'a')
 
  
  while devam == 'e' or devam == 'E':
