@@ -1,9 +1,8 @@
-# kayit arama:
+# kayit arama ve ekleme:
 def KayitEkle():
  devam = 'e'
 
-
- kahve_dos = open('kahve.txt', 'a')
+ kahve_dos = open('kahve.txt', 'w')
 
  
  while devam == 'e' or devam == 'E':
@@ -11,7 +10,7 @@ def KayitEkle():
    print('Kahve verilerini giriniz: ')
    tanim = input('Tanim: ')
 
-   miktar = int(input('Miktar: '))
+   miktar = (input('Miktar: '))
 
 
    kahve_dos.write(tanim + '\n')
@@ -27,27 +26,28 @@ KayitEkle()
  
 def KayitAra():
  # flag gorevinde bool degiskeni olusturalim
- bulundu = False
+  bulundu = False
  
- arama = input('Aranacak bir tanim girin: ')
- kahve_dos = open('kahve.txt', 'r')
+  arama = input('Aranacak bir tanim girin: ')
+ 
+  kahve_dos = open('kahve.txt', 'r')
 
- tanim = kahve_dos.readline()
+  tanim = kahve_dos.readline()
 
- while tanim != '':
-   miktar = float(kahve_dos.readline())
+  while tanim != '':
+   miktar = (kahve_dos.readline())
    tanim = tanim.rstrip('\n')
 
- if tanim == arama:
-   print(f'Tanim: {tanim}')
-   print(f'Miktar: {miktar}')
-   print()
+   if tanim == arama:
+     print(f'Tanim: {tanim}')
+     print(f'Miktar: {miktar}')
+     print()
 
-   bulundu = True
+     bulundu = True
 
- tanim = kahve_dos.readline()
- kahve_dos.close()
- if not bulundu:
+   tanim = kahve_dos.readline()
+  kahve_dos.close()
+  if not bulundu:
     print('Bulunamadi.')
 
 KayitAra()
